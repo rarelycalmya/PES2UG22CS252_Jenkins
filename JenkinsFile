@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "Building the application..."
-                    sh "make -C main clean && make -C main hello_exec"
+                    sh "make -C main hello_exec"
                 }
             }
         }
